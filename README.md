@@ -1,3 +1,5 @@
+NOTE: this repo requires pulling down the `apollo-client` repo and checking out revision `d5ece94c977e5f21bb5f43dca8ece690f8e87dbd`.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
