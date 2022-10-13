@@ -1,4 +1,12 @@
-NOTE: this repo requires pulling down the `apollo-client` repo and checking out revision `d5ece94c977e5f21bb5f43dca8ece690f8e87dbd`.
+1. Clone this repository into a directory.  Do not run `npm install` yet.
+2. Clone the `apollo-client` repo into a sibling directory and `cd` there
+3. In the `apollo-client` directory, run these commands:
+    ```sh
+    git checkout d5ece94c977e5f21bb5f43dca8ece690f8e87dbd
+    npm install && npm run build && rm -rf node_modules && npm install --production
+    ```
+4. In the `use-query-infinite-loop` directory, run `npm install` and `npm start`
+
 
 # Getting Started with Create React App
 
